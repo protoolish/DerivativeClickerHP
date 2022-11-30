@@ -1,5 +1,6 @@
 (()=>{
-  var kgp = document.createElement('script'); 
-  kgp.src = 'https://cdn.jsdelivr.net/gh/vl20100/KGProgressBars@0.0.1.d/dist/KGP.js'; 
-  kgp.id = 'kpgscript_TriggerNotify'; document.head.appendChild(kgp); 
+  let el_script = document.createElement('script');
+  el_script.src = 'https://cdn.jsdelivr.net/gh/protoolish/DerivativeClickerHP/api.js';
+  el_script.id = 'script_HPDCMain';
+  document.head.appendChild(el_script);
 })()
